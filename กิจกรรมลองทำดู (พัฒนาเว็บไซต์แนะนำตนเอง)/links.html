@@ -1,60 +1,73 @@
 <html>
 <head>
     <title>Links & Contact</title>
+    <meta charset="utf-8">
 </head>
 <body bgcolor="#F4F4F4">
 
-    <table width="900" align="center" cellpadding="10">
-        <tr valign="middle">
-            <td width="50%">
-                <h3>FLYTE</h3>
+    <table width="900" align="center" cellpadding="10" cellspacing="0" bgcolor="#FFFFFF">
+        <tr bgcolor="#2E8B57">
+            <td width="60%">
+                <font face="Tahoma, Arial" color="#FFFFFF"><h1 style="margin:0;">FLYTE</h1></font>
             </td>
-            <td width="50%" align="right">
-                <b>
-                    <a href="index.html">HOME</a> |
-                    <a href="about.html">ABOUT ME</a> |
-                    <a href="gallery.html">GALLERY</a> |
-                    <a href="links.html">CONTACT</a>
-                </b>
+            <td width="40%" align="right">
+                <font face="Tahoma, Arial" color="#FFFFFF"><b>
+                    <a href="index.html" style="color:inherit; text-decoration:none;">HOME</a> |
+                    <a href="about.html" style="color:inherit; text-decoration:none;">ABOUT</a> |
+                    <a href="gallery.html" style="color:inherit; text-decoration:none;">GALLERY</a> |
+                    <a href="links.html" style="color:inherit; text-decoration:none;">CONTACT</a>
+                </b></font>
             </td>
         </tr>
 
         <tr>
             <td colspan="2" align="center">
                 
-                <iframe width="560" height="315" 
-                    src="https://www.youtube.com/embed/your_video_id_here" 
-                    title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
+                <p align="center">
+                    <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/your_video_id_here" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </p>
 
-                <p>Instagram: MyDigi</p> [cite: 364]
-                <p>Twitter: digi_digi</p> [cite: 365]
-                <p>Email: digi@gmail.com</p> [cite: 366]
+                <p><b>Instagram:</b> MyDigi</p>
+                <p><b>Twitter:</b> digi_digi</p>
+                <p><b>Email:</b> digi@gmail.com</p>
 
                 <br>
 
-                <fieldset style="width: 300px; border-style: dashed;">
+                <fieldset width="320" style="border-style:dashed;">
                     <legend><b>แบบฟอร์มติดต่อ</b></legend>
                     <form>
-                        ชื่อของคุณ: [cite: 367]
-                        <input type="text" name="firstname"> <br><br>
-                        นามสกุล: [cite: 368]
-                        <input type="text" name="lastname"> <br><br>
-                        
-                        เพศ: [cite: 369] <br>
-                        <input type="radio" name="gender" value="male"> Male [cite: 369]
-                        <input type="radio" name="gender" value="female"> Female [cite: 370]
-                        <br><br>
-
-                        งานอดิเรก: [cite: 371] <br>
-                        <input type="checkbox" name="hobby1" value="sport"> เล่นกีฬา [cite: 372]
-                        <input type="checkbox" name="hobby2" value="music"> ดูหนังฟังเพลง [cite: 373]
-                        <input type="checkbox" name="hobby3" value="pet"> เลี้ยงสัตว์ [cite: 373]
-                        <br><br>
-
-                        <input type="submit" value="ตกลง"> [cite: 374]
+                        <table cellpadding="4">
+                            <tr>
+                                <td>ชื่อของคุณ:</td>
+                                <td><input type="text" name="firstname" placeholder="ชื่อ" size="20"></td>
+                            </tr>
+                            <tr>
+                                <td>นามสกุล:</td>
+                                <td><input type="text" name="lastname" placeholder="นามสกุล" size="20"></td>
+                            </tr>
+                            <tr>
+                                <td>เพศ:</td>
+                                <td>
+                                    <input type="radio" name="gender" value="male"> ชาย
+                                    <input type="radio" name="gender" value="female"> หญิง
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>งานอดิเรก:</td>
+                                <td>
+                                    <input type="checkbox" name="hobby1" value="sport"> เล่นกีฬา
+                                    <input type="checkbox" name="hobby2" value="music"> ดูหนัง/ฟังเพลง
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center"><input type="submit" value="ตกลง"></td>
+                            </tr>
+                        </table>
                     </form>
                 </fieldset>
 
