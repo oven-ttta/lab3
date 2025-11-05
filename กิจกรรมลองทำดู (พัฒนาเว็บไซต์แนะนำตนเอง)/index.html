@@ -2,24 +2,41 @@
 <head>
     <title>Home - My Profile</title>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Prompt globally, force override for deprecated <font face=> usage */
+        body, table, td, th, h1, h2, h3, p, a, legend, input, textarea, select, li {
+            font-family: 'Prompt', Tahoma, Arial, sans-serif !important;
+        }
+        /* Circular profile image */
+        .profile {
+            border-radius: 50% !important;
+            width: 360px; /* match original image size */
+            height: 360px; /* match original image size */
+            object-fit: cover;
+            display: block;
+            border: 4px solid #000; /* keep similar visual to previous border attribute */
+        }
+    </style>
 </head>
 <body background="bg.jpg">
 
-    <table width="900" align="center" cellpadding="12" cellspacing="0" bgcolor="#FFFFFF">
-        <tr bgcolor="#2E8B57">
+    <table width="80%" align="center" cellpadding="12" cellspacing="0" bgcolor="">
+        <tr bgcolor="transparent">
             <td width="60%">
-                <font face="Tahoma, Arial" color="#FFFFFF"><h1 style="margin:0;">FLYTE</h1></font>
+                <font face="Tahoma, Arial" color="#00000">
+                    <h1 style="margin:0;">Oven</h1>
+                </font>
             </td>
             <td width="40%" align="right">
-                <font face="Tahoma, Arial" color="#FFFFFF"><b>
-                    <a href="index.html" style="color:inherit; text-decoration:none;">HOME</a> |
-                    <a href="about.html" style="color:inherit; text-decoration:none;">ABOUT</a> |
-                    <a href="gallery.html" style="color:inherit; text-decoration:none;">GALLERY</a> |
-                    <a href="links.html" style="color:inherit; text-decoration:none;">CONTACT</a>
-                </b></font>
+                <font face="Tahoma, Arial" color="#00000"><b>
+                        <a href="index.html" style="color:inherit; text-decoration:none;">HOME</a> |
+                        <a href="about.html" style="color:inherit; text-decoration:none;">ABOUT</a> |
+                        <a href="gallery.html" style="color:inherit; text-decoration:none;">GALLERY</a> |
+                        <a href="links.html" style="color:inherit; text-decoration:none;">CONTACT</a>
+                    </b></font>
             </td>
         </tr>
-
         <tr>
             <td colspan="2"><hr size="2" color="#CCCCCC"></td>
         </tr>
@@ -27,7 +44,7 @@
         <tr valign="top">
             <td width="50%" align="center">
                 <a href="about.html">
-                    <img src="image/profile.jpg" alt="My Profile Picture" width="360" height="360" border="4">
+                    <img class="profile" src="image/profile.jpg" alt="Profile Picture" width="360" height="360">
                 </a>
             </td>
             <td width="50%">
@@ -38,11 +55,9 @@
                     <b>มหาวิทยาลัย:</b> มหาวิทยาลัยเทคโนโลยีสุรนารี, ประเทศไทย</p>
 
                     <h3>About me</h3>
-                    <ul>
-                        <li>นักศึกษา สาขาเทคโนโลยีดิจิทัล</li>
-                        <li>สนใจด้าน Digital Arts และ Photography</li>
-                        <li>ชอบทดลองผลงานใหม่ ๆ และถ่ายภาพธรรมชาติ</li>
-                    </ul>
+                    <p>
+                        ผมเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 6 โรงเรียนตรีประชาพัฒนศึกษา จังหวัดชัยภูมิ รูปแบบ Home School และเป็น Backend Developer ที่มีความหลงใหลในการสร้าง Web Application และชื่นชอบในการเขียน Program ผมมีประสบการณ์ในการทำงานและทักษะเกี่ยวกับ JavaScript, Python, React, Next.js, Nest.js, Node.js, Postman, PostgreSQL, MySQL, Docker, FastAPI, HTML, CSS, Figma และ Git ผมเป็นคนเรียนรู้เร็วและกำลังมองหาวิธีเพิ่มพูนความรู้และทักษะอยู่เสมอ ปัจจุบันผมอยู่ภายใต้การดูแลโครงการ The Tiger Team Academy และผมชื่นชอบทำงานร่วมกับผู้อื่นพร้อมทั้งมั่นศึกษาอยู่เป็นประจำเพื่อที่จะพัฒนาตัวเองและพัฒนาสิ่งรอบข้างให้ดีขึ้นอยู่เสมอ
+                    </p>
                 </font>
             </td>
         </tr>
