@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,87 +10,110 @@
     <!-- #### ให้นักศึกษาลองเปิดปิด comment ส่วนนี้เพื่อดูความแตกต่าง #### -->
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
     <style>
-    body, html {
-    background-size: cover;
-    font-family: 'Abel', sans-serif;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-    }
-    img,H2{
+        body,
+        html {
+            background-size: cover;
+            font-family: 'Abel', sans-serif;
+        }
 
-        display: inline;
-    }
-    .row {
-    display: flex;
-    }
+        a {
+            text-decoration: none;
+            color: black;
+        }
 
-    .column {
-    flex: 50%;
-    }
-	.p {
-	margin: auto;
-	border-style: dashed;
-	width: 30%;
-	text-align: center;
-	}
+        img,
+        H2 {
 
+            display: inline;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 50%;
+        }
+
+        .p {
+            margin: auto;
+            border-style: dashed;
+            width: 30%;
+            text-align: center;
+        }
     </style>
     <!-- ############################### -->
 </head>
 <!-- ตั้งรูปพื้นหลังที่นี่ -->
+
 <body background="./image/bg.jpg">
     <!-- <body bgcolor="#DADED4"> -->
-<!-- ############## -->   
+    <!-- ############## -->
     <div class="row">
         <div class="column">
             <!-- ใส่ข้อความยินดีต้อนรับทีนี่ -->
-            <img align="middle" src="./image/logo.png" width="40px" /> 
+            <img align="middle" src="./image/logo.png" width="40px" />
             <!-- #################### -->
         </div>
         <div class="column" align="right" style="padding-right: 20px;padding-top: 40px;">
             <!-- ใส่ลิงก์ในหน้าเว็บที่นี่ -->
             <a href="index.html">HOME</a> |
             <a href="about.html">ABOUT ME</a> |
-			<a href="gallery.html">MY FAVORITE</a> |
+            <a href="gallery.html">MY FAVORITE</a> |
             <a href="links.html">CONTACT</a>
             <!-- ################### -->
         </div>
     </div>
-    <hr/>
-    <br/>
+    <hr />
+    <br />
     <center>
-	   <!-- ใส่ลิงก์ YouTube โดย copy iframe มาวาง -->
-	   
- <br/><br/>
-<a href="https://www.instagram.com"> Instagram : ระบุชื่อ ตัวเอง</a> <br/><br/>
-      <!-- ใส่ลิงค์ทวิตเตอร์ -->
-	  <!-- ใส่ลิงค์อีเมล์ -->
-	  <!-- ใส่ลิงค์เฟสบุ๊ค-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MyOsMJMi5jk?si=3sdZdyijvopqNgYm"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  
-</center>
-   
+        <br /><br />
+        <a href="https://www.instagram.com/oven.2007m/"> Instagram : oven.2007m</a> <br /><br />
+        <a href="https://www.facebook.com/over.2007M"> facebook : Sitthisak Phaisanphiphak</a> <br /><br />
+        <!-- <a href="https://www.ovenx.shop">My Web Shop</a> <br /><br /> -->
+        <a href="https://portfolio.ovenx.shop">Web : My Portfolio</a> <br /><br />
+        <a href="mailto:B6824310@g.sut.ac.th">Email : B6824310@g.sut.ac.th</a> <br /><br />
+        <!-- ใส่ลิงค์ทวิตเตอร์ -->
+        <!-- ใส่ลิงค์อีเมล์ -->
+        <!-- ใส่ลิงค์เฟสบุ๊ค-->
 
 
-<form>
-<br/><br/>
-	<div    class="p" align="center">
-	<tr>
-	<br/><br/>
-		
-		<!-- ใส่่ textbox, radio, checkbox, และ button ที่นี่ -->
+    </center>
 
-		<br/><br/>
-		<input type="submit" value="ตกลง">
-		<br/>
-	</tr>
-	 </div>
-</form> 
 
-	
+
+    <form>
+        <br /><br />
+        <div class="p" align="center">
+            <tr>
+                <br /><br />
+                <!-- ใส่่ textbox, radio, checkbox, และ button ที่นี่ -->
+                ชื่อของคุณ : <input type="text" name="firstname" size="30"></br>
+                นามสกุล : <input type="text" name="lastname" size="30">
+                <br /><br />
+                เพศ : <br />
+                <input type="radio" name="gender" value="male"> ชาย <br />
+                <input type="radio" name="gender" value="female"> หญิง <br /><br />
+
+                งานอดิเรก : <br />
+                <input type="checkbox" name="hobby1" value="reading"> เล่นกีฬา <br />
+                <input type="checkbox" name="hobby2" value="traveling"> ดูหนังฟังเพลง <br />
+                <input type="checkbox" name="hobby3" value="sports"> เลี้ยงสัตว์ <br />
+                <br /><br />
+                <input type="submit" value="ตกลง">
+                <br />
+            </tr>
+        </div>
+    </form>
+
+
 
 
 </body>
+
 </html>
