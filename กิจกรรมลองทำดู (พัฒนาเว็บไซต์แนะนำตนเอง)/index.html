@@ -3,61 +3,66 @@
     <title>Home - My Profile</title>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* Apply Prompt globally, force override for deprecated <font face=> usage */
-        body, table, td, th, h1, h2, h3, p, a, legend, input, textarea, select, li {
-            font-family: 'Prompt', Tahoma, Arial, sans-serif !important;
-        }
-        /* Circular profile image */
-        .profile {
-            border-radius: 50% !important;
-            width: 360px; /* match original image size */
-            height: 360px; /* match original image size */
-            object-fit: cover;
-            display: block;
-            border: 4px solid #000; /* keep similar visual to previous border attribute */
-        }
-    </style>
 </head>
-<body background="bg.jpg">
+<body background="/image/ปั่น.webp" link="#000" vlink="#000" alink="#FF6600">
 
-    <table width="80%" align="center" cellpadding="12" cellspacing="0" bgcolor="">
-        <tr bgcolor="transparent">
-            <td width="60%">
-                <font face="Tahoma, Arial" color="#00000">
-                    <h1 style="margin:0;">Oven</h1>
+    <table width="85%" align="center" cellpadding="15" cellspacing="0" border="0">
+        <tr background="transparent">
+            <td width="60%" align="center">
+                <font face="Prompt" color="#000" size="+2">
+                    <b>Oven</b>
                 </font>
             </td>
             <td width="40%" align="right">
-                <font face="Tahoma, Arial" color="#00000"><b>
-                        <a href="index.html" style="color:inherit; text-decoration:none;">HOME</a> |
-                        <a href="about.html" style="color:inherit; text-decoration:none;">ABOUT</a> |
-                        <a href="gallery.html" style="color:inherit; text-decoration:none;">GALLERY</a> |
-                        <a href="links.html" style="color:inherit; text-decoration:none;">CONTACT</a>
-                    </b></font>
+                <font face="Prompt" color="#000">
+                    <b>
+                        <a href="index.html">HOME</a> |
+                        <a href="about.html">ABOUT</a> |
+                        <a href="gallery.html">GALLERY</a> |
+                        <a href="links.html">CONTACT</a>
+                    </b>
+                </font>
             </td>
         </tr>
         <tr>
-            <td colspan="2"><hr size="2" color="#CCCCCC"></td>
+            <td colspan="2" bgcolor="#87CEEB"><hr size="3" color="#4682B4"></td>
         </tr>
 
-        <tr valign="top">
-            <td width="50%" align="center">
+        <tr valign="top" bgcolor="#F8F9FA">
+            <td width="50%" align="center" bgcolor="#E8F4FD">
+                <br>
                 <a href="about.html">
-                    <img class="profile" src="image/profile.jpg" alt="Profile Picture" width="360" height="360">
+                    <img src="image/profile.jpg" alt="Profile Picture" width="300" height="300" border="5" hspace="10" vspace="10">
                 </a>
+                <br><br>
             </td>
-            <td width="50%">
-                <font face="Tahoma, Arial">
-                    <h2>B6824310 &nbsp; นาย สิทธิศักดิ์ ไพศาลภิภักดิ์</h2>
-                    <p><b>สำนัก:</b> สำนัก ศาสตร์และศิลป์ดิจิทัล<br>
-                    <b>สาขา:</b> เทคโนโลยีดิจิทัล<br>
-                    <b>มหาวิทยาลัย:</b> มหาวิทยาลัยเทคโนโลยีสุรนารี, ประเทศไทย</p>
-
-                    <h3>About me</h3>
-                    <p>
+            <td width="50%" bgcolor="#F0F8FF">
+                <font face="Prompt">
+                    <br>
+                    <center><h2><font color="#2E86AB">B6824310 &nbsp; นาย สิทธิศักดิ์ ไพศาลภิภักดิ์</font></h2></center>
+                    <table align="center" cellpadding="5" width="90%">
+                        <tr><td><b><font color="#555555">สำนัก:</font></b></td><td><font color="#2E86AB">สำนัก ศาสตร์และศิลป์ดิจิทัล</font></td></tr>
+                        <tr><td><b><font color="#555555">สาขา:</font></b></td><td><font color="#2E86AB">เทคโนโลยีดิจิทัล</font></td></tr>
+                        <tr><td><b><font color="#555555">มหาวิทยาลัย:</font></b></td><td><font color="#2E86AB">มหาวิทยาลัยเทคโนโลยีสุรนารี, ประเทศไทย</font></td></tr>
+                    </table>
+                    <br>
+                    <center><h3><font color="#2E86AB">About me</font></h3></center>
+                    <p align="justify">
+                        <font color="#444444" size="-1">
                         ผมเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 6 โรงเรียนตรีประชาพัฒนศึกษา จังหวัดชัยภูมิ รูปแบบ Home School และเป็น Backend Developer ที่มีความหลงใหลในการสร้าง Web Application และชื่นชอบในการเขียน Program ผมมีประสบการณ์ในการทำงานและทักษะเกี่ยวกับ JavaScript, Python, React, Next.js, Nest.js, Node.js, Postman, PostgreSQL, MySQL, Docker, FastAPI, HTML, CSS, Figma และ Git ผมเป็นคนเรียนรู้เร็วและกำลังมองหาวิธีเพิ่มพูนความรู้และทักษะอยู่เสมอ ปัจจุบันผมอยู่ภายใต้การดูแลโครงการ The Tiger Team Academy และผมชื่นชอบทำงานร่วมกับผู้อื่นพร้อมทั้งมั่นศึกษาอยู่เป็นประจำเพื่อที่จะพัฒนาตัวเองและพัฒนาสิ่งรอบข้างให้ดีขึ้นอยู่เสมอ
+                        </font>
                     </p>
+                    <br>
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="#87CEEB"><hr size="2" color="#4682B4" noshade></td>
+        </tr>
+        <tr bgcolor="#E8F4FD">
+            <td colspan="2" align="center">
+                <font face="Prompt" size="-1" color="#666666">
+                    <i>Welcome to my digital portfolio &copy; 2024</i>
                 </font>
             </td>
         </tr>
